@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - TokenApiController</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>TokenApiController</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.example.springbootdeveloper.controller.cotroller.html">org.example.springbootdeveloper.controller.cotroller</a> &gt; TokenApiController</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.474s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">createNewAccessToken : 새로운 액세스 토큰을 발급한다.</td>
+<td class="success">createNewAccessToken()</td>
+<td class="success">0.474s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>18:30:24.426 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.example.springbootdeveloper.controller.cotroller.TokenApiController]: TokenApiController does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:30:24.492 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration org.example.springbootdeveloper.SpringBootDeveloperApplication for test class org.example.springbootdeveloper.controller.cotroller.TokenApiController
+18:30:24.554 [Test worker] INFO org.springframework.boot.devtools.restart.RestartApplicationListener -- Restart disabled due to context in which it is running
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.0)
+
+2025-05-24T18:30:24.664+09:00  INFO 7609 --- [    Test worker] o.e.s.c.cotroller.TokenApiController     : Starting TokenApiController using Java 17.0.11 with PID 7609 (started by parksangwon in /Users/parksangwon/Programming_ut/web_backend/springboot-develop)
+2025-05-24T18:30:24.665+09:00  INFO 7609 --- [    Test worker] o.e.s.c.cotroller.TokenApiController     : No active profile set, falling back to 1 default profile: &quot;default&quot;
+2025-05-24T18:30:24.957+09:00  INFO 7609 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-05-24T18:30:24.980+09:00  INFO 7609 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+2025-05-24T18:30:25.159+09:00  INFO 7609 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-05-24T18:30:25.240+09:00  INFO 7609 --- [    Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-05-24T18:30:25.240+09:00  INFO 7609 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-05-24T18:30:25.265+09:00  INFO 7609 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-05-24T18:30:25.295+09:00  INFO 7609 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-05-24T18:30:25.312+09:00  INFO 7609 --- [    Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-05-24T18:30:25.412+09:00  INFO 7609 --- [    Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-05-24T18:30:25.776+09:00  INFO 7609 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+Hibernate: drop table if exists article cascade 
+Hibernate: drop table if exists refresh_token cascade 
+Hibernate: drop table if exists users cascade 
+Hibernate: create table article (created_at timestamp(6), id bigint generated by default as identity, updated_at timestamp(6), content varchar(255) not null, title varchar(255) not null, primary key (id))
+Hibernate: create table refresh_token (id bigint generated by default as identity, user_id bigint not null, refresh_token varchar(255) not null, primary key (id))
+Hibernate: create table users (id bigint generated by default as identity, email varchar(255) not null unique, password varchar(255), primary key (id))
+2025-05-24T18:30:25.794+09:00  INFO 7609 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-05-24T18:30:25.979+09:00  WARN 7609 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-05-24T18:30:26.139+09:00  INFO 7609 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@21ebf9be, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d50b4c4, org.springframework.security.web.context.SecurityContextHolderFilter@26a004ed, org.springframework.security.web.header.HeaderWriterFilter@1013aa94, org.springframework.web.filter.CorsFilter@7860a014, org.springframework.security.web.authentication.logout.LogoutFilter@44bd7f24, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@77902ed6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75b6bd41, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@21457b14, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@86e8469, org.springframework.security.web.access.ExceptionTranslationFilter@594965c9, org.springframework.security.web.access.intercept.AuthorizationFilter@77262e71]
+2025-05-24T18:30:26.141+09:00  WARN 7609 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@28dd038f. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-05-24T18:30:26.141+09:00  INFO 7609 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure org.springframework.boot.autoconfigure.security.servlet.PathRequest$H2ConsoleRequestMatcher@28dd038f
+2025-05-24T18:30:26.141+09:00  WARN 7609 --- [    Test worker] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/static/**']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2025-05-24T18:30:26.141+09:00  INFO 7609 --- [    Test worker] o.s.s.web.DefaultSecurityFilterChain     : Will not secure Ant [pattern='/static/**']
+2025-05-24T18:30:26.297+09:00  INFO 7609 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-24T18:30:26.297+09:00  INFO 7609 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-24T18:30:26.298+09:00  INFO 7609 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-05-24T18:30:26.316+09:00  INFO 7609 --- [    Test worker] o.e.s.c.cotroller.TokenApiController     : Started TokenApiController in 1.761 seconds (process running for 2.31)
+2025-05-24T18:30:26.612+09:00  INFO 7609 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-05-24T18:30:26.612+09:00  INFO 7609 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-05-24T18:30:26.612+09:00  INFO 7609 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0
+Hibernate: insert into users (email,password,id) values (?,?,default)
+Hibernate: insert into refresh_token (refresh_token,user_id,id) values (?,?,default)
+Hibernate: select rt1_0.id,rt1_0.refresh_token,rt1_0.user_id from refresh_token rt1_0 where rt1_0.refresh_token=?
+Hibernate: select u1_0.id,u1_0.email,u1_0.password from users u1_0 where u1_0.id=?
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.8</a> at 2025. 5. 24. 오후 6:30:26</p>
+</div>
+</div>
+</body>
+</html>
